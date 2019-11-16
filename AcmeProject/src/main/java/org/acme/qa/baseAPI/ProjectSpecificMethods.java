@@ -17,11 +17,12 @@ public class ProjectSpecificMethods extends SeleniumBase{
 	@BeforeMethod
 	public void login() {
 		
-		System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
+		startApp("chrome", "https://acme-test.uipath.com/account/login");
+		/*System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get("https://acme-test.uipath.com/account/login");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
 		
 	}
 	
