@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Acme Test Automation Page Object Model Suite" duration-ms="22503" started-at="2019-11-16T16:42:36 IST" finished-at="2019-11-16T16:42:58 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Acme Test Automation Page Object Model Test Cases" duration-ms="22503" started-at="2019-11-16T16:42:36 IST" finished-at="2019-11-16T16:42:58 IST">
+      <class name="org.acme.qa.testcases.InvoiceNumberTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="setUp" is-config="true" duration-ms="31" started-at="2019-11-16T16:42:36 IST" finished-at="2019-11-16T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="setUpClass" is-config="true" duration-ms="301" started-at="2019-11-16T16:42:36 IST" finished-at="2019-11-16T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="login" is-config="true" duration-ms="14256" started-at="2019-11-16T16:42:38 IST" finished-at="2019-11-16T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runInvoiceNumberFindTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="runInvoiceNumberFindTestCases" duration-ms="6289" started-at="2019-11-16T16:42:52 IST" data-provider="acmeData" finished-at="2019-11-16T16:42:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DE763212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvoiceNumberFindTestCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="tearDown" is-config="true" duration-ms="224" started-at="2019-11-16T16:42:58 IST" finished-at="2019-11-16T16:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.acme.qa.testcases.InvoiceNumberTestCases@150efb8]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2019-11-16T16:42:58 IST" finished-at="2019-11-16T16:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.acme.qa.testcases.InvoiceNumberTestCases -->
+    </test> <!-- Acme Test Automation Page Object Model Test Cases -->
+  </suite> <!-- Acme Test Automation Page Object Model Suite -->
+</testng-results>

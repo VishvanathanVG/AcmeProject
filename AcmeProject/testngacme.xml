@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Acme Test Automation Page Object Model Suite" verbose="5">
+  <test thread-count="5" name="Acme Test Automation Page Object Model Test Cases">
+    <classes>
+      <class name="org.acme.qa.testcases.InvoiceNumberTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
